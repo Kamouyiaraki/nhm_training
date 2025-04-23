@@ -1,5 +1,5 @@
-Natural History Museum HPC
-==========================
+# Natural History Museum HPC
+
 
 This is a guide for users of the UK's Natural History Museum High Performance Computing (HPC) cluster.
 

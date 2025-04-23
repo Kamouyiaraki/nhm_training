@@ -12,17 +12,18 @@
 - **Quota**: 50GB
 - **Used for**:
 
-  + Small files
-  + Software only accessible to you (personal Conda environments, etc.)
+  - Small files
+  - Software only accessible to you (personal Conda environments, etc.)
 
-When you log in, you'll be in your home directory, a personal area only you can access. Here, you can save small files and install software (conda environments, etc.), but space is limited to 30GB. For larger files or long-term projects, use [group/project](group/project) folders.
+When you log in, you'll be in your home directory, a personal area only you can access. Here, you can save small files and install software (Conda environments, etc.), but space is limited to 30GB. For larger files or long-term projects, use [group/project](#groupproject-folders) folders.
 
 ## Group/project folders
 
-- **Paths**:
-  + `/workspaces/groups`
-  + `/mbl/share/workspaces/groups`   
-  + `/gpfs/nhmfsa/bulk/share/data/mbl/share/workspaces/groups`
+- **Paths**:<br>
+The groups folder can be accessed via any of these symlinks:
+  - `/workspaces/groups`
+  - `/mbl/share/workspaces/groups`   
+  - `/gpfs/nhmfsa/bulk/share/data/mbl/share/workspaces/groups`
 
 - **Backed up**: every 1-2 days
 - **Quota**: 2TB
@@ -33,23 +34,22 @@ When you log in, you'll be in your home directory, a personal area only you can 
   + Large files
   + Important data intended for long-term storage
 
-It's best to store your work in a group workspace. You'll find these workspaces under `/workspaces/groups`, organized by project. If you need a new group folder for your project, simply reach out to TS for assistance. Colleagues can also be given access, making group workspaces perfect for collaborative efforts. The default storage limit is 2TB per folder, but TS can increase it if needed.
+It's best to store your important work here. If you need a new folder for your project, reach out to TS for assistance. Colleagues can also be given access, making these group workspaces ideal for collaborative efforts. Each folder has a default storage limit of 2TB, but can be increased if necessary.
 
 ## Shared software
 
 - **Paths**:
 
-  + `/software`   
-  + `/mbl/share/software`  
-  + `/gpfs/nhmfsa/bulk/share/data/mbl/share/software`
+  - `/software`   
+  - `/mbl/share/software`  
+  - `/gpfs/nhmfsa/bulk/share/data/mbl/share/software`
 
 - **Backed up**: every 1-2 days
 - **Quota**: None
 - **Used for**:
 
-  + Software available to all users
-  + Compiled software
-  + Container images
+  - Software available to all users
+  - Software you have compiled (usually with the `make` command) and want to make available for other users
 
 ## Scratch space
 
@@ -58,9 +58,9 @@ It's best to store your work in a group workspace. You'll find these workspaces 
 - **Quota**: None
 - **Used for**:
 
-  + Temporary storage for files during job execution
-  + Data that can be easily recreated
+  - Temporary storage for files during job execution
+  - Data that can be easily recreated
 
-Scratch space serves as a temporary storage area for files needed only during job execution. You can utilize the `/mbl/share/scratch` folder for this purpose. The benefit of using this folder is that it won't affect your overall disk quota. Files in this folder are automatically deleted after 21 days of inactivity. However, it's recommended to delete them manually once you're finished.
+Scratch space serves as a temporary storage area for files needed only during job execution. The benefit of using this folder is that it won't affect your overall disk quota. Files in this folder are automatically deleted after 21 days of inactivity. However, it's recommended to delete them manually once you're finished.
 
 > Refrain from using the `/tmp` directory for temporary output, as it is reserved for system processes. Any data stored in `/tmp` may be deleted without notice.

@@ -8,12 +8,12 @@ NHM provides an HPC cluster accessible to staff. This guide details the primary 
 Login node
 ----------
 
-The head nodes are the nodes you log into using SSH, and are used to manage files, install software, and submit jobs through the job scheduler (Slurm). The head node is called hpc-head-002.
+The head node is the node you log into using SSH, and is used to manage files, install software, and submit jobs through the job scheduler (Slurm). The head node is called **hpc-head-002**.
 
 Compute nodes
 -------------
 
-The nodes where actual computations are performed. Jobs are distributed across these nodes to utilize their combined processing power. 
+The compute nodes are where the actual computations are performed. Jobs are distributed across these nodes to utilize their combined processing power. 
 
 | Hostname     | CPUs | Memory | GPUs                       |               
 |--------------|------|--------|----------------------------| 
@@ -42,14 +42,12 @@ Other HPC services
 
 Other HPC services are available to NHM staff and students, as detailed below.
 
-### Franklin & Sanger
-- This cluster is managed by TS whereas franklin and sanger are managed by Peter Foster.
-- This cluster requires that analyses are submitted via a job scheduler (Slurm).
-- This cluster has more compute power, and also has GPUs.
+### Franklin and Sanger
+Franklin and Sanger are a pair of servers managed by Peter Foster, who is a researcher at NHM. Franklin and Sanger are easier to use than HPC, as they don't use a job scheduler. However, they have fewer compute resources and no GPUs.
 
 ### UK Crop Diversity HPC cluster
 
-A much larger HPC cluster that is shared with other institutions. Vist the [UK Crop Diversity](https://www.cropdiversity.ac.uk) website for more information.
+A much larger HPC cluster that is shared with other institutions. Visit the [UK Crop Diversity](https://www.cropdiversity.ac.uk) website for more information.
 
 
 
